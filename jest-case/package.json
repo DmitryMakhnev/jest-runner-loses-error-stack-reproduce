@@ -1,0 +1,14 @@
+{
+  "name": "jest-runner-loses-error-stack-property-reproduce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --reporters ./custom-reporter.js"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1"
+  }
+}
